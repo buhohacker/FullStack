@@ -1,4 +1,2 @@
-# FullStack Open ![img](https://img.shields.io/badge/buhohacker-Fullstack-blue)
+# FullStack Open ![img](https://img.shields.io/badge/buhohacker-Fullstack-blue) ![img](https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22278-owl-icon.png)
 Reference: https://fullstackopen.com
-
-By buhohacker
