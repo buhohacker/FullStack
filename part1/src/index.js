@@ -5,15 +5,19 @@ const App = () => {
   const now = new Date()
   const a = 10
   const b = 20
-
-  return (
-    <div>
-      <p>Hello world, it is {now.toString()}</p>
-      <p>
-        {a} plus {b} is {a + b}
-      </p>
-    </div>
+  return React.createElement(
+    'div',
+    null,
+    React.createElement(
+      'p', null, 'Hello world, it is ', now.toString()
+    ),
+    React.createElement(
+      'p', null, a, ' plus ', b, ' is ', a + b
+    )
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(
+  React.createElement(App, null),
+  document.getElementById('root')
+)
