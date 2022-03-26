@@ -1,3 +1,2 @@
 # FullStack Open
-# Reference: https://fullstackopen.com/
-# By buhohacker
+## Reference: https://fullstackopen.com/
